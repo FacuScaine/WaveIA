@@ -1,0 +1,24 @@
+version: "3.1"
+
+stories:
+
+- story: comprar suspension
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: comprar_suspension
+  - action: utter_comprar_suspension
+  - intent: marca_del_auto 
+  - action: utter_tipo_de_suspension_buscada
+  - intent: tipo_de_suspension
+  - action: utter_telefono
+  - intent: numero_de_telefono
+  - action: utter_gracias_despedida
+
+- story: instalar suspension
+  steps:
+  - intent: saludar
+  - action: utter_saludar
+  - intent: instalar_suspension
+  - intent: utter_instalar_suspension
+  - action: utter_auto_que_tiene

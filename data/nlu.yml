@@ -1,0 +1,126 @@
+version: "3.1"
+
+nlu:
+- intent: saludar
+  examples: |
+    - hey
+    - ey
+    - hola
+    - buen dia
+    - buenas tardes
+    - buenas noches
+
+- intent: numero_de_telefono
+  examples: |
+    - 11 68987543
+    - 54 11 68987543
+    - 011 68987543
+    - 68987543
+
+- intent: marca_del_auto
+  examples: |
+    - Alfa Romeo
+    - Audi
+    - BMW
+    - Brilliance
+    - Changan
+    - Chery
+    - Chevrolet
+    - Chrysler
+    - Citroën
+    - DFSK
+    - Dodge
+    - DS Automobiles
+    - FAW
+    - Ferrari
+    - Fiat
+    - Ford
+    - Geely
+    - Great Wall
+    - Haval
+    - Honda
+    - Hyundai
+    - Isuzu
+    - Jac
+    - Jaguar
+    - Jeep
+    - Kia
+    - Land Rover
+    - Lifan
+    - Mazda
+    - Mercedes-Benz
+    - Mini
+    - Mitsubishi
+    - Nissan
+    - Peugeot
+    - Porsche
+    - RAM
+    - Renault
+    - Saab
+    - Seat
+    - Smart
+    - SsangYong
+    - Subaru
+    - Suzuki
+    - Tesla
+    - Toyota
+    - Volkswagen
+    - Volvo
+
+- intent: tipo_de_suspension
+  examples: |
+    - fija
+    - regulable
+
+- intent: comprar_suspension
+  examples: |
+    - comprar suspension
+    - busco una suspension
+    
+- intent: instalar_suspension
+  examples: |
+    - instalar suspension
+    - colocar suspension
+
+- intent: goodbye
+  examples: |
+    - chau
+    - nos vemos
+
+- intent: affirm
+  examples: |
+    - si
+    - ok
+    - por supuesto
+    - claro
+    - dale
+
+- intent: deny
+  examples: |
+    - no
+    - nunca
+    - no creo
+
+- intent: mood_great
+  examples: |
+    - perfecto
+    - bien
+    - increible
+    - muy bien
+    - contento
+
+- intent: mood_unhappy
+  examples: |
+    - horrible
+    - triste
+    - no me siento bien
+    - estoy decepcionado
+    - para nada bien
+    - mal
+
+- intent: bot_challenge
+  examples: |
+    - sos un robot?
+    - sos un humano?
+    - estoy hablando con un robot?
+    - estoy hablando con un humano?

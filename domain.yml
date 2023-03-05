@@ -1,0 +1,50 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - auto_que_tiene
+  - instalar_suspension
+  - comprar_suspension
+  - tipo_de_suspension
+  - utter_instalar_suspension
+  - marca_del_auto
+  - numero_de_telefono
+responses:
+  utter_saludar:
+  - text: "hola! en que te puedo ayudar?"
+  - text: "hola, como te puedo ayudar?"
+  - text: "hola, que necesitas?"
+
+  utter_telefono:
+  - text: "genial, me pasarias tu telefono para enviarte la oferta?"
+
+  utter_gracias_despedida:
+  - text: "muchas gracias, te vamos a estar contactando con la oferta"
+
+  utter_comprar_suspension:
+  - text: perfecto, que marca es tu auto?
+
+  utter_tipo_de_suspension_buscada:
+  - text: que tipo de suspension buscas?
+
+  utter_auto_que_tiene:
+  - text: perfecto, y que suspension buscas?
+
+  utter_instalar_suspension:
+  - text: nosotros no instalamos suspensiones, pero te podemos recomedar talleres, en que zona te encontras?
+  
+  utter_goodbye:
+  - text: "Chau, un placer"
+
+  utter_iamabot:
+  - text: "Soy Mariela, voy a derivarte con un experto."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
